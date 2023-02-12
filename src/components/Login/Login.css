@@ -1,0 +1,57 @@
+.backgroundLogin {
+    height: 60%;
+    width: 30%;
+    background-color: #F4F3F3;
+    margin: auto 10% auto 50%;
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: #BDBDBD;
+}
+
+.Login-dados {
+    display: flex;
+    flex-direction: column;
+}
+
+.Login-dados h1 {
+    color: #301b52;
+}
+
+.Login-dados input {
+    width: 80%;
+    height: 3rem;
+    margin: 1rem auto;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid;
+    border-color: #828282;
+}
+
+.Login-dados input::placeholder {
+    font-weight: 700;;
+}
+
+.Login-dados a {
+    color: #301b52;
+    text-align: left;
+    font-weight: 700;
+    margin: 0 3rem;
+}
+
+.Botao-login, .Botao-signup {
+    height: 3rem;
+    width: 8rem;
+    margin: 2rem;
+    border-radius: 20px;
+    border: none;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.Botao-login {
+    background-color: #301b52;
+}
+
+.Botao-signup {
+    background-color: #DB0916;
+}
